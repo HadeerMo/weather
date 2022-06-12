@@ -3,7 +3,7 @@ let homeLi = document.querySelector("li a")
 let myWeather=document.querySelector(".items")
 let searchInput=document.querySelector(".search-input")
 let searchButtom=document.querySelector(".search-buttom")
-if (window.location.href == "file:///C:/Users/media/Desktop/fullStack/frontend/javascript/assignments/assignment%2011/index.html") {
+if (window.location.href.includes("weather/index.html")) {
     homeLi.style = "border:solid rgb(0, 154, 216) 2px; color: rgb(0, 154, 216)!important"
 }
 async function searchCountry(country) {
