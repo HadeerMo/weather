@@ -3,7 +3,7 @@ let homeLi = document.querySelector("li a")
 let myWeather=document.querySelector(".items")
 let searchInput=document.querySelector(".search-input")
 let searchButtom=document.querySelector(".search-buttom")
-if (window.location.href == "file:///C:/Users/media/Desktop/fullStack/frontend/javascript/assignments/assignment%2011/index.html") {
+if (window.location.href.includes("weather/index.html")) {
     homeLi.style = "border:solid rgb(0, 154, 216) 2px; color: rgb(0, 154, 216)!important"
 }
 async function searchCountry(country) {
@@ -56,7 +56,7 @@ async function searchCountry(country) {
           <h5 class="mt-2 mb-4 blue-sky">${result.forecast.forecastday[1].day.condition.text}</h5>
         </div>
       </div>
-      <div class="col-md-4 item  px-0 rounded-r-5">
+      <div class="col-md-4 item  px-0 rounded-r-5 mb-3">
         <div class="d-flex justify-content-center px-3 item-top rounded-l-none pt-2 pb-0">
           <p>${days[afterTwoDay]}</p>
         </div>
