@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 32, 43);
+}
+
+li a {
+    color: white !important;
+    font-size: .85rem;
+    border: solid transparent 2px;
+    border-radius: 4rem;
+    transition: all .5s;
+
+}
+
+li:hover a {
+    border: solid rgb(0, 154, 216) 2px;
+    border-radius: 4rem;
+    color: rgb(0, 154, 216) !important;
+}
+
+li:active a {
+    border: solid rgb(0, 154, 216) 2px;
+    border-radius: 4rem;
+    color: rgb(0, 154, 216) !important;
+}
+
+.w-22 {
+    width: 22%;
+}
+
+.fs-7 {
+    font-size: .65rem;
+    color: rgba(255, 255, 255, 0.749);
+}
+
+.home {
+    background-image: url(../imges/banner.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.item {
+    background-color: #323544;
+}
+
+.item-top {
+    background-color: #2d303d;
+    color: rgba(255, 255, 255, 0.795);
+    border-top-left-radius: .8rem;
+}
+
+.rounded-l-none {
+    border-top-right-radius: .8rem;
+    border-top-left-radius: 0rem;
+}
+
+.rounded-l-5 {
+    border-radius: .8rem;
+    border-bottom-right-radius: 0;
+}
+
+.rounded-r-5 {
+    border-radius: .8rem;
+    border-bottom-left-radius: 0;
+}
+
+h2 {
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: .85rem;
+}
+
+.blue-sky {
+    color: #009ad8;
+}
+
+.info-icon {
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.light-white {
+    color: rgba(255, 255, 255, 0.688);
+}
+
+.middle-item {
+    background-color: #262936;
+}
+
+.middle-item-top {
+    background-color: #222530;
+}
+
+.py-3-4 {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.search,
+.search-input {
+    background-color: rgb(30, 32, 43);
+}
+
+.search-input {
+    border: none;
+    color: white;
+}
+
+.search-input:focus {
+    background-color: rgb(30, 32, 43);
+    outline: none;
+}
+
+.search-buttom {
+    background-color: #009ad8;
+    color: white;
+    margin: .25rem;
+    padding: 12px 35px;
+}
+
+.footer-of-bage {
+    background-color: #262936;
+}
+
+.fs-f {
+    font-size: .9rem;
+}
+
+.w-65 {
+    width: 65%;
+}
+.color-white{
+    color: red;
+}
